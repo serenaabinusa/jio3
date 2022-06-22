@@ -27,7 +27,7 @@ const mongoose = require('mongoose');
 	}
 	else {
 		// worker
-		const mongoString = "mongodb+srv://sams:masuk123@klutik.nhg6o.mongodb.net/?retryWrites=true&w=majority"
+		const mongoString = "mongodb+srv://sam:masuk123@cluster0.btvzbux.mongodb.net/?retryWrites=true&w=majority"
 
 		mongoose.connect(mongoString, {
 			useNewUrlParser: true,
